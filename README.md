@@ -1,6 +1,6 @@
 # PG_Stay
 
-Staylist digitizes the full PG accommodation workflow: Admins define serviceable locations and approve property listings; Owners list properties, manage rooms and beds, and approve guest bookings; Guests search properties, request beds, and pay rent monthly through an integrated payment gateway. A separate lightweight .NET service logs every API action for auditability without touching core business logic.
+PG Stay digitizes the full PG accommodation workflow: Admins define serviceable locations and approve property listings; Owners list properties, manage rooms and beds, and approve guest bookings; Guests search properties, request beds, and pay rent monthly through an integrated payment gateway. A separate lightweight .NET service logs every API action for auditability without touching core business logic.
 
 Features
 Role-based access — Admin, Owner, and Guest each get a dedicated dashboard and permission set, enforced via Spring Security + JWT.
