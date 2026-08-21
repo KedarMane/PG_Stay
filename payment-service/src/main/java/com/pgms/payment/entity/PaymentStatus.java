@@ -1,0 +1,5 @@
+package com.pgms.payment.entity;
+
+public enum PaymentStatus {
+    CREATED, PAID, FAILED, REFUNDED
+}
